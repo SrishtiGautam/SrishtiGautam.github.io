@@ -193,8 +193,32 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
+#pub {
+  background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#pub h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#pub p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+
+#pub h1 {
+   padding-bottom: 6px;
+}
+
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
+
+#pub a, #pub a:visited  { color: #fff; }
+#pub a:hover, #pub a:focus { color: #11ABB0; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -207,9 +231,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   /*width: 120px;*/
+   /*height: 120px;*/
+   /*border-radius: 100%;*/
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
